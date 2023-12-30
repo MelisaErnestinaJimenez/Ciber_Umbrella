@@ -13,6 +13,8 @@
      .logo {
          text-align: center;
     }
+
+    
      .cart-content-right {
          padding-bottom: 5px;
     }
@@ -219,6 +221,20 @@
     }
 }
  @media (min-width: 576px) and (max-width: 767px) {
+ 
+
+    .logo img {
+        /* Ajusta el tamaño de la imagen según tus necesidades */
+        max-width: 30rem;
+        height: auto;
+    }
+
+    .mean-container .mean-bar {
+     background: none;
+     position: absolute;
+
+    }
+
      .menu-area-main li.active a {
          background: transparent;
          box-shadow: inherit;
@@ -226,6 +242,7 @@
      .search{
          display: none;
     }
+    
      .mean-container .mean-bar {
         margin-top: 1px;
     }
@@ -313,7 +330,14 @@
      .logo {
          float: inherit;
          text-align: center;
+       
     }
+
+    .logo a {
+        height: 20rem;
+        width: 20rem !important;
+    }
+
      .banner-main .text-bg h1 {
         font-size: 24px;
          line-height: 38px;
@@ -331,6 +355,7 @@
     }
      .banner-main img {
         height: 258px;
+        width: 100%;
     }
      .music-box {
          padding-bottom: 60px;
@@ -364,7 +389,7 @@
      .text-box .box h3 {
          font-size: 22px;
          line-height: 30px;
-         padding: 12px 0px 
+         padding: 12px 0px;
     }
      .Lastestnews {
          padding: 60px 0;

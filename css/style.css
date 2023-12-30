@@ -1461,15 +1461,16 @@
      padding: 0px;
 }
  .text-box {
-     background: #ff1d00;
+     background: #6e6e6e;
+     max-width: 100%;
      width: 100%;
      height: 90%;
      margin: 32px 0px;
      box-sizing: border-box !important;
 }
  .text-box .box {
-     padding-top: 80px;
-     margin-left: -80px;
+     padding: 80px;
+
 }
  .text-box .box i {
      padding-bottom: 10px;
@@ -1489,7 +1490,7 @@
 }
  .text-box .box p {
      color: #fff;
-     font-size: 17px;
+     font-size: 18px;
      line-height: 22px;
 }
  .text-box .box a {
