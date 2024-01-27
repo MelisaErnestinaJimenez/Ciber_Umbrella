@@ -1744,7 +1744,7 @@
      margin-bottom: 25px;
 }
  .footer {
-     background: #0b0808;
+     background: #000000;
      padding-top: 90px;
 }
  .footer .address h3 {
@@ -1802,7 +1802,7 @@
 }
  .copyright p {
      color: #023023;
-     font-size: 18px;
+     font-size: 14px;
      line-height: 22px;
      text-align: center;
 }
